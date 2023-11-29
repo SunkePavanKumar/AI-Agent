@@ -13,6 +13,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    environment :
+      name : AI-Agent
+      url: https://github.com
 
     strategy:
       matrix:
